@@ -9,15 +9,11 @@ Why not just use the web interface? Because this way is like 2 secs faster and i
 Change **username** and **ip_address** values in the first lines of the script, then:
 
 ```bash
-./phdis.py password interval
+./phdis.sh interval
 ```
 
 e.g.: To stop Pi-Hole for 10 mi
 
 ```bash
-./phdis.py mypassword 10
+./phdis.sh 10
 ```
-
-## Requirements
-
-- paramikto (i used paramikto:2.7.1)

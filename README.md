@@ -1,6 +1,6 @@
-# PySomeScripts
+# SomeScripts
 
-Just some everyday use Python scripts.
+Just some everyday use scripts.
 
 ## Scripts
 
