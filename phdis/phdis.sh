@@ -27,7 +27,7 @@ function check_args() {
     fi
 }
 
-#check_changeme
+check_changeme
 check_args "$@"
 echo "Connecting to "$username"@"$ip_address"..."
 ssh "$username"@"$ip_address" "
