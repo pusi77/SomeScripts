@@ -28,9 +28,9 @@ function check_args() {
 }
 
 #check_changeme
-check_args $@
+check_args "$@"
 echo "Connecting to "$username"@"$ip_address"..."
 ssh "$username"@"$ip_address" "
     echo Connected
-    pihole disable "$1"m
+    pihole disable $1m
     echo Connection closed"
