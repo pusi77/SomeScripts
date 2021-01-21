@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import PyPDF2
 
 def check_file_existence(filename: str):
